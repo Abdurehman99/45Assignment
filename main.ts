@@ -1,6 +1,11 @@
-let names : string [] = ['saqib','rashid','fahad','zoaib','hadi'];
-let message : string  = "Hope you are fine"
-for(let i=0; i<names.length; i++){
+//  Excersise 13
 
-console.log(names[i] "\t" + message);
+let transportation : string [] = ['porche','lamborghini','Rolls Royce'];
+
+
+for(let i=0; i<transportation.length; i++){
+
+
+console.log(`i would like to own a ` + transportation[i])
+
 }
