@@ -1,7 +1,4 @@
-let Person_Name :string ="fahad"
+let quote : string = "A person who never made a mistake never tried anything new.";
+let Aurthor = "Alber Einstine"
 
-console.log("Lower Case", Person_Name.toLowerCase())
-
-console.log("Upper Case",Person_Name.toUpperCase())
-
-console.log("Title Case",Person_Name.replace(/\b\w/g,c=> c.toUpperCase()))
+console.log(`${Aurthor} once said: ${quote} `)

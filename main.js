@@ -1,4 +1,3 @@
-var Person_Name = "fahad";
-console.log("Lower Case", Person_Name.toLowerCase());
-console.log("Upper Case", Person_Name.toUpperCase());
-console.log("Title Case", Person_Name.replace(/\b\w/g, function (c) { return c.toUpperCase(); }));
+var quote = "A person who never made a mistake never tried anything new.";
+var Aurthor = "Alber Einstine";
+console.log("".concat(Aurthor, " once said: ").concat(quote, " "));
