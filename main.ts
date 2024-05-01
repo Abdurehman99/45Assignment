@@ -1,6 +1,6 @@
-//NAME:Abdurehman
-//Date: 15-3-24
+let names : string [] = ['saqib','rashid','fahad','zoaib','hadi'];
 
-//favorite nmber 
+for(let i=0; i<names.length; i++){
 
-//revealed my faborite number in the program
+console.log(names[i]);
+}

@@ -1,5 +1,4 @@
-"use strict";
-//NAME:Abdurehman
-//Date: 15-3-24
-//favorite nmber 
-//revealed my faborite number in the program
+var names = ['saqib', 'rashid', 'fahad', 'zoaib', 'hadi'];
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
