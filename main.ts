@@ -1,4 +1,7 @@
-let quote : string = "A person who never made a mistake never tried anything new.";
-let Aurthor = "Alber Einstine"
+let Famous_Person : string = "Albert Einstine";
 
-console.log(`${Aurthor} once said: ${quote} `)
+let Quote : string="A person who never made made mistake will never tried new things";
+
+let message :string = `${Famous_Person} once said, "${Quote}"`;
+
+console.log(message)
