@@ -1,13 +1,3 @@
-let favourite_place : string [] = ['Dubai','Canada','islamabad','bhawalpur','lahore']
-
-console.log("original   " + favourite_place );
-
-console.log("copy   " + [...favourite_place].sort() )
-
-console.log("original   " + favourite_place );
-
-console.log("copy  " + [...favourite_place].sort().reverse())
-
-console.log("original " + favourite_place );
-
-console.log("copy  " + [...favourite_place].sort())
+import{ guest_list } from '../14.Guest List/main'
+console.log(`\n NUMBER OF INVITED GUESTS`)
+console.log(`we had invited ${guest_list.length}`)
