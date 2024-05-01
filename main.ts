@@ -1,22 +1,5 @@
-interface item {
+let car = "Sabaru"
 
-    name:string
-    price:number
-}
+console.log("is car == 'Sabaru'? ipredict True")
 
-let book : item ={
-
-    name:'ESSENTIAL TYPESCRIPT'
-    price:450
-
-}
-
-let apple: item ={
-
-name:'apple'
-price:200
-
-}
-console.log(`book name ${book.name}, price: ${book.price}`)
-
-console.log(`book name ${apple.name}, price: ${apple.price}`)
+console.log(car == Sabaru)
