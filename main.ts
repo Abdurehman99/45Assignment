@@ -1,7 +1,7 @@
-let guest_list : string [] = ['aazain','hadi','rafay','rashid'];
+let Famous_Person : string = "Albert Einstine";
 
-for(let i=0; i<guest_list.length; i++){
+let Quote : string="A person who never made made mistake will never tried new things";
 
-console.log(`we invite u on dinner tomorrow ${guest_list[i]}`)
-}
-export{guest_list}
+let message :string = `${Famous_Person} once said, "${Quote}"`;
+
+console.log(message)
