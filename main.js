@@ -1,6 +1,10 @@
-var cars = ['civic', 'toyota', 'nissan', 'hyundai', 'suzuki'];
-console.log("list of cars ");
-for (var _i = 0, cars_1 = cars; _i < cars_1.length; _i++) {
-    var top_1 = cars_1[_i];
-    console.log(top_1);
-}
+var book = {
+    name: 'ESSENTIAL TYPESCRIPT',
+    price: 450
+};
+var apple = {
+    name: 'apple',
+    price: 200
+};
+console.log("book name ".concat(book.name, ", price: ").concat(book.price));
+console.log("book name ".concat(apple.name, ", price: ").concat(apple.price));
