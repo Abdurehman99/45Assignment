@@ -1,20 +1,17 @@
-let age : number = 25
+let Favourite_Fruit : string [] = ["Apple","Banana","Pineapple"]
 
-if (age <2 ) {
-    console.log("The person is a baby")
+if (Favourite_Fruit.includes("Apple"))  {
+    console.log("I really like Apple")
 }
-else if (age >=2 && age < 4) {
-    console.log("The person is a toddler")
+if (Favourite_Fruit.includes("Banana"))  {
+    console.log("I really like Banana")
 }
-else if (age >=5 && age < 13) {
-    console.log("The person is a kid")
+if (Favourite_Fruit.includes("Pineapple"))  {
+    console.log("I really like Pineapple")
 }
-else if (age >= 13 && age < 20) {
-    console.log("The person is a teenager")
+if (Favourite_Fruit.includes("Grapes"))  {
+    console.log("I really like Grapes")
 }
-else if (age >= 20 && age < 65) {
-    console.log("The person is an Adult")
+if (Favourite_Fruit.includes("Mango"))  {
+    console.log("I really like Mangos")
 }
- else { 
-    console.log("The person is an elder")
- }
