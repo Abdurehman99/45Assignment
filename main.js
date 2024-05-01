@@ -1,6 +1,4 @@
-var animals = ["dog", "cat", "rabbit"];
-for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
-    var animal = animals_1[_i];
-    console.log("A ".concat(animal, " would make a great pet."));
+function make_shirt(size, message) {
+    console.log("Creating a ".concat(size, " shirt with the message: \"").concat(message, "\""));
 }
-console.log("Any of these animals would make a great pet!");
+make_shirt('large', 'Hello, world!');

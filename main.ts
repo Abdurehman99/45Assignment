@@ -1,10 +1,5 @@
-
-let animals: string[] = ["dog", "cat", "rabbit"];
-
-
-for (let animal of animals) {
-  console.log(`A ${animal} would make a great pet.`);
-}
-
-
-console.log("Any of these animals would make a great pet!");
+function make_shirt(size: string, message: string): void {
+    console.log(`Creating a ${size} shirt with the message: "${message}"`);
+  }
+  
+  make_shirt('large', 'Hello, world!');
