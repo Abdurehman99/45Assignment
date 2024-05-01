@@ -1,8 +1,8 @@
-function city(cityName: string, country: string = 'DefaultCountry') {
-    console.log(`${cityName} is in ${country}.`);
+function city_names(city: string, country: string): string {
+    return `${city}, ${country}`;
   }
   
   // Result
-  city('Karachi', 'Pakistan');
-  city('delhi', 'India');
-  city('bangladesh');
+  console.log(city_names("London", "USA"));
+  console.log(city_names("delhi", "india"));
+  console.log(city_names("quetta", "pakistan"));
