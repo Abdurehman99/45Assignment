@@ -1,8 +1,23 @@
-function city_names(city: string, country: string): string {
-    return `${city}, ${country}`;
+function album(artist: string, title: string, tracks?: number) {
+    const album: { artist: string, title: string, tracks?: number } = {
+        artist: artist,
+        title: title
+    };
+  
+    if (tracks !== undefined) {
+        album.tracks = tracks;
+    }
+  
+    return album;
   }
   
-  // Result
-  console.log(city_names("London", "USA"));
-  console.log(city_names("delhi", "india"));
-  console.log(city_names("quetta", "pakistan"));
+  let album1 = album('taylor swift', '2020');
+  console.log(album1);
+  
+
+  let album2 = album('wiz khalifa', 'Friend', 12);
+  console.log(album2);
+  
+ 
+  let album3 = album('harry styles', '2018');
+  console.log(album3);
