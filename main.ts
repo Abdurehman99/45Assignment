@@ -1,11 +1,16 @@
-let alienColour :string ="green"
+let aline_color = "green"
 
-if (alienColour == "green") {
-    console.log("Ther player just earned 5 points")
+if (aline_color == "green") {
+    console.log("The player just earned 5 points for shooting the alien")
 }
+else (
+    console.log("The player just earned 10 points")
+)
 
-alienColour = "Red"
+aline_color = "Red"
 
-if (alienColour == "green") {
-    console.log("Ther player just earned 5 points")
+if (aline_color == "green") {
+    console.log("The player just earned 5 points for shooting the alien")
+}else{
+    console.log("The player just earned 10 points by shooting and red alien")
 }
