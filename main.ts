@@ -1,11 +1,7 @@
-//  Excersise 13
+let guest_list : string [] = ['aazain','hadi','rafay','rashid'];
 
-let transportation : string [] = ['porche','lamborghini','Rolls Royce'];
+for(let i=0; i<guest_list.length; i++){
 
-
-for(let i=0; i<transportation.length; i++){
-
-
-console.log(`i would like to own a ` + transportation[i])
-
+console.log(`we invite u on dinner tomorrow ${guest_list[i]}`)
 }
+export{guest_list}
