@@ -1,10 +1,10 @@
-let Favourite_Pizzas : string [] = ["MargaritaPizza","Fajita","SpicyArabian"]
 
-for ( let i =0 ; i < Favourite_Pizzas.length ; i++  ) {
+let animals: string[] = ["dog", "cat", "rabbit"];
 
-    console.log(Favourite_Pizzas[i])
+
+for (let animal of animals) {
+  console.log(`A ${animal} would make a great pet.`);
 }
-for (let i =0 ; i < Favourite_Pizzas.length ; i++) {
-    console.log(`I like to eat ${ Favourite_Pizzas}`)
-}
-console.log("I really like to eat pizzas becasue they come in diffrent flavours")
+
+
+console.log("Any of these animals would make a great pet!");

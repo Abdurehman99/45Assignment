@@ -1,8 +1,6 @@
-var Favourite_Pizzas = ["MargaritaPizza", "Fajita", "SpicyArabian"];
-for (var i = 0; i < Favourite_Pizzas.length; i++) {
-    console.log(Favourite_Pizzas[i]);
+var animals = ["dog", "cat", "rabbit"];
+for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
+    var animal = animals_1[_i];
+    console.log("A ".concat(animal, " would make a great pet."));
 }
-for (var i = 0; i < Favourite_Pizzas.length; i++) {
-    console.log("I like to eat ".concat(Favourite_Pizzas));
-}
-console.log("I really like to eat pizzas becasue they come in diffrent flavours");
+console.log("Any of these animals would make a great pet!");
