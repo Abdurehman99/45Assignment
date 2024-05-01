@@ -1,5 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const main_1 = require("../14.Guest List/main");
-console.log(`\n NUMBER OF INVITED GUESTS`);
-console.log(`we had invited ${main_1.guest_list.length}`);
+var cars = ['civic', 'toyota', 'nissan', 'hyundai', 'suzuki'];
+console.log("list of cars ");
+for (var _i = 0, cars_1 = cars; _i < cars_1.length; _i++) {
+    var top_1 = cars_1[_i];
+    console.log(top_1);
+}
