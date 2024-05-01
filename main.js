@@ -1,2 +1,5 @@
-var favouritenumber = 5;
-console.log("My favourite number is ".concat(favouritenumber, "."));
+"use strict";
+//NAME:Abdurehman
+//Date: 15-3-24
+//favorite nmber 
+//revealed my faborite number in the program

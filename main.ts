@@ -1,2 +1,6 @@
-let favouritenumber : number =5 ;
-console.log(`My favourite number is ${favouritenumber}.`);
+//NAME:Abdurehman
+//Date: 15-3-24
+
+//favorite nmber 
+
+//revealed my faborite number in the program
