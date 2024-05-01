@@ -1,15 +1,17 @@
-let current_users : string [] = ["raza","admin","shahid","shoaib","talha"];
+let my_numbers : number [] = [1,2,3,4,5,6,7,8,9];
 
-let new_users : string [] = ["User2","User6","User7","admin","User9"];
-
-new_users.forEach((newUser) => {
-    if (
-        current_users.some(
-            (current_users => current_users.toLowerCase() === newUser.toLowerCase())
-        )
-    ) {
-        console.log(`${newUser} will need to enter a new username`)
-    } else {
-        console.log(`${newUser} is avaliable`)
-    }
-} );
+for ( let i=0; i < my_numbers.length; i++) {
+    if (my_numbers [i] == 1)  {
+        console.log(`${my_numbers[i]}st`)
+     } 
+     if (my_numbers [i] == 2)  {
+        console.log(`${my_numbers[i]}nd`)
+     }
+     if (my_numbers [i] == 3)  {
+        console.log(`${my_numbers[i]}rd`)
+     }
+     if (my_numbers [i] >= 4 && my_numbers [i] <= 9 )  {
+        console.log(`${my_numbers[i]}th`)
+     }
+   
+}

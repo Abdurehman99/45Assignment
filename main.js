@@ -1,11 +1,15 @@
-"use strict";
-let current_users = ["raza", "admin", "shahid", "shoaib", "talha"];
-let new_users = ["User2", "User6", "User7", "admin", "User9"];
-new_users.forEach((newUser) => {
-    if (current_users.some((current_users => current_users.toLowerCase() === newUser.toLowerCase()))) {
-        console.log(`${newUser} will need to enter a new username`);
+var my_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (var i = 0; i < my_numbers.length; i++) {
+    if (my_numbers[i] == 1) {
+        console.log("".concat(my_numbers[i], "st"));
     }
-    else {
-        console.log(`${newUser} is avaliable`);
+    if (my_numbers[i] == 2) {
+        console.log("".concat(my_numbers[i], "nd"));
     }
-});
+    if (my_numbers[i] == 3) {
+        console.log("".concat(my_numbers[i], "rd"));
+    }
+    if (my_numbers[i] >= 4 && my_numbers[i] <= 9) {
+        console.log("".concat(my_numbers[i], "th"));
+    }
+}
