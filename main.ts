@@ -1,9 +1,15 @@
-let users : string [] = ["Admin","Ayesha","Rafay","Rashid","Suleman"]
+let current_users : string [] = ["raza","admin","shahid","shoaib","talha"];
 
-if (users.length === 0) {
-    console.log("We need to find some users")
-}
-else {
-    users = [];
-    console.log("All users have be removed " + users.length)
-}
+let new_users : string [] = ["User2","User6","User7","admin","User9"];
+
+new_users.forEach((newUser) => {
+    if (
+        current_users.some(
+            (current_users => current_users.toLowerCase() === newUser.toLowerCase())
+        )
+    ) {
+        console.log(`${newUser} will need to enter a new username`)
+    } else {
+        console.log(`${newUser} is avaliable`)
+    }
+} );
