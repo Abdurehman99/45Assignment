@@ -1,9 +1,10 @@
 "use strict";
-function Sandwich(items) {
-    console.log("Making a sandwich with:");
-    items.forEach(item => console.log("- " + item));
-    console.log("Enjoy your sandwich!\n");
+function storeCarInfo(manufacturer, modelName, ...extras) {
+    let carInfo = {
+        manufacturer,
+        modelName,
+    };
+    return carInfo;
 }
-Sandwich(["jam", "Cheese", "tomato slice"]);
-Sandwich(["pizza", "Bacon"]);
-Sandwich(["Butter", "honey"]);
+let car = storeCarInfo('Toyota', 'Honda', { color: 'black' }, { features: ['navigation', 'sunroof'] });
+console.log(car);

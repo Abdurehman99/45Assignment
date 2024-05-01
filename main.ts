@@ -1,9 +1,11 @@
-function Sandwich(items: string[]): void {
-    console.log("Making a sandwich with:");
-    items.forEach(item => console.log("- " + item));
-    console.log("Enjoy your sandwich!\n");
+function CarInfo(manufacturer: string, modelName: string, ...extras: { [key: string]: any }[]): object {
+    let carInfo = {
+        manufacturer,
+        modelName,
+        ...Object.assign({}, ...extras)
+    };
+    return carInfo;
 }
 
-Sandwich(["jam", "Cheese", "tomato slice"]);
-Sandwich(["pizza", "Bacon"]);
-Sandwich(["Butter", "honey"]);
+let car = CarInfo('Toyota', 'Honda', {color: 'black'}, {features: ['navigation', 'sunroof']});
+console.log(car);
