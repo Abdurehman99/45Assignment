@@ -1,4 +1,11 @@
-var Famous_Person = "Albert Einstine";
-var Quote = "A person who never made made mistake will never tried new things";
-var message = "".concat(Famous_Person, " once said, \"").concat(Quote, "\"");
-console.log(message);
+var guest_list = ['aazain', 'hadi', 'rafay', 'rashid'];
+for (var i = 0; i < guest_list.length; i++) {
+    console.log("we invite u on dinner tomorrow ".concat(guest_list[i], "\t\n"));
+}
+var not_attending = "rafay";
+var new_guest = "sulaiman";
+guest_list[2] = new_guest;
+for (var i = 0; i < guest_list.length; i++) {
+    console.log("we invite u on dinner tomorrow ".concat(guest_list[i], "\t\n"));
+}
+console.log("".concat(not_attending, " unfortunately cannot attend tomorrow dinner."));

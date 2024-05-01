@@ -1,7 +1,17 @@
-let Famous_Person : string = "Albert Einstine";
+let guest_list : string [] = ['aazain','hadi','rafay','rashid'];
 
-let Quote : string="A person who never made made mistake will never tried new things";
+for(let i=0; i<guest_list.length; i++){
 
-let message :string = `${Famous_Person} once said, "${Quote}"`;
+console.log(`we invite u on dinner tomorrow ${guest_list[i]}\t\n`)
+}
 
-console.log(message)
+let not_attending : string = "rafay";
+let new_guest : string = "sulaiman";
+guest_list[2] = new_guest
+
+for(let i=0; i<guest_list.length; i++){
+
+    console.log(`we invite u on dinner tomorrow ${guest_list[i]}\t\n`)
+    }
+
+    console.log(`${not_attending} unfortunately cannot attend tomorrow dinner.`)
