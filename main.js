@@ -1,22 +1,16 @@
-var guest_list = ['aazain', 'hadi', 'rafay', 'rashid'];
-var not_attending = "rafay";
-var new_guest = "sulaiman";
-guest_list[2] = new_guest;
-for (var i = 0; i < guest_list.length; i++) {
-    console.log("we invite u on dinner tomorrow ".concat(guest_list[i], "\t\n"));
-}
-console.log("".concat(not_attending, " unfortunately cannot attend tomorrow dinner\n."));
-guest_list.unshift('sana', 'saqib', 'shamin');
-for (var i = 0; i < guest_list.length; i++) {
-    console.log("we invite u on dinner tomorrow because we found a bigger table ".concat(guest_list[i], "\t\n"));
-}
-console.log("unfortunately we cannot arrange bigger table only two people can come\n");
-while (guest_list.length > 2) {
-    var remove_guest = guest_list.pop();
-    console.log("sorry ".concat(remove_guest, "  you are not invited for dinner\n\t"));
-}
-for (var i = 0; i < guest_list.length; i++) {
-    console.log("sir/ms " + guest_list[i] + "\n youre still invited");
-}
-guest_list.splice(0, 2);
-console.log(guest_list);
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+var favourite_place = ['Dubai', 'Canada', 'islamabad', 'bhawalpur', 'lahore'];
+console.log("original   " + favourite_place);
+console.log("copy   " + __spreadArray([], favourite_place, true).sort());
+console.log("original   " + favourite_place);
+console.log("copy  " + __spreadArray([], favourite_place, true).sort().reverse());
+console.log("original " + favourite_place);
+console.log("copy  " + __spreadArray([], favourite_place, true).sort());
