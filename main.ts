@@ -1,11 +1,7 @@
-function CarInfo(manufacturer: string, modelName: string, ...extras: { [key: string]: any }[]): object {
-    let carInfo = {
-        manufacturer,
-        modelName,
-        ...Object.assign({}, ...extras)
-    };
-    return carInfo;
-}
+let array : (string|number) [] = ['hadi','humdan','alyan',1,2,3,'rashid']
 
-let car = CarInfo('Toyota', 'Honda', {color: 'black'}, {features: ['navigation', 'sunroof']});
-console.log(car);
+console.log(array[5])
+console.log(array[0])
+console.log(array[1])
+console.log(array[2])
+console.log(array[4])

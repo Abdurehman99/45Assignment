@@ -1,10 +1,7 @@
 "use strict";
-function storeCarInfo(manufacturer, modelName, ...extras) {
-    let carInfo = {
-        manufacturer,
-        modelName,
-    };
-    return carInfo;
-}
-let car = storeCarInfo('Toyota', 'Honda', { color: 'black' }, { features: ['navigation', 'sunroof'] });
-console.log(car);
+let array = ['hadi', 'humdan', 'alyan', 1, 2, 3, 'rashid'];
+console.log(array[5]);
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[4]);
